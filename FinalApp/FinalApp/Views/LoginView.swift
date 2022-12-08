@@ -103,6 +103,7 @@ struct LoginView: View {
                     
                 }
             }
+            .accentColor(.blue)
         }
     }
 }

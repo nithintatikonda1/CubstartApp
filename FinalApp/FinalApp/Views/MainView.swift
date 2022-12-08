@@ -16,18 +16,19 @@ struct MainView: View {
         TabView {
             DiscoverView()
                 .tabItem {
-                    Label("Discover", systemImage: "list.dash")
+                    //Label("Discover", image: "burger")
+                    Label("Discover", systemImage: "magnifyingglass")
                 }
             
             SavedItemsView()
                 .tabItem {
-                    Label("My Items", systemImage: "list.dash")
+                    Label("My Items", systemImage: "bookmark")
                 }
             
             
             ProfileView(email: email)
                 .tabItem {
-                    Label("Profile", systemImage: "list.dash")
+                    Label("Profile", systemImage: "person")
                 }
         }
     }
